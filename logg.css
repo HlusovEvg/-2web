@@ -1,0 +1,49 @@
+.logo{
+    display: inline-block;
+    vertical-align: center;
+    height: 128px;
+}
+.title{
+    display: inline-block;
+    vertical-align: right;
+    font-family: 'Bad Script', cursive;
+    font-size: 150%;
+
+}
+.list{
+    background: rgb(195, 0, 255);
+    line-height: 25px;
+}
+.list li{
+    list-style: none;
+    display:inline-block;
+    text-align:justify;
+
+}
+.list li a{
+    display:inline-block;
+    width: 50px;
+    text-decoration: inherit;
+    border: 100px dotted transparent;
+    color:rgb(255, 255, 255);
+}
+.list li a:hover{
+    text-decoration: underline;
+    border: 3px dotted;
+}
+
+.left{
+    display: inline-block;
+    width: 20%;
+    line-height: 25px;
+}
+.right{
+    vertical-align: top;
+    display: inline-block;
+    width: calc(80% - 50px);
+}
+footer{
+    text-align: center;
+    background: rgb(195, 0, 255);
+    color:rgb(255, 255, 255);
+}
